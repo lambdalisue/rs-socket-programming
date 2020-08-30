@@ -2,4 +2,5 @@
 members = [
     "src/tcp-server",
     "src/tcp-client",
+    "src/udp-server",
 ]

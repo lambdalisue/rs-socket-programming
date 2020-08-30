@@ -1,0 +1,19 @@
+[package]
+name = "udp-server"
+version = "0.1.0"
+authors = ["lambdalisue <lambdalisue@hashnote.net>"]
+edition = "2018"
+
+[[bin]]
+name = "udp-server"
+path = "src/main.rs"
+
+[dependencies]
+log = "0.4.11"
+env_logger = "0.7.1"
+anyhow = "1.0.32"
+thiserror = "1.0.20"
+
+[dependencies.async-std]
+version = "1.6.3"
+features = ["attributes"]
